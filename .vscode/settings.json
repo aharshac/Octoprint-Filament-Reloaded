@@ -1,0 +1,5 @@
+{
+	"editor.detectIndentation": false,
+	"git.ignoreLimitWarning": true,
+	"python.pythonPath": "${workspaceFolder}\\venv\\Scripts\\python.exe",
+}
