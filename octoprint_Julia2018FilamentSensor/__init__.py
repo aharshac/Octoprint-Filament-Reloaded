@@ -59,6 +59,10 @@ class Julia2018FilamentSensorPlugin(octoprint.plugin.StartupPlugin,
     Settings
     '''
     @property
+    def enabled(self):
+        return int(self._settings.get(["enabled"]))
+
+    @property
     def pin(self):
         return int(self._settings.get(["pin"]))
 
@@ -298,6 +302,7 @@ class Julia2018FilamentSensorPlugin(octoprint.plugin.StartupPlugin,
 
     def get_settings_defaults(self):
         return dict(
+            enabled = True,
             pin     = -1,   # Default is no pin
             bounce  = 250,  # Debounce 250ms
             switch  = 0,    # Normally Open
