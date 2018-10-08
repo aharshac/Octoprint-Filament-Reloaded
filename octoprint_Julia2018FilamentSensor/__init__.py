@@ -269,12 +269,12 @@ class Julia2018FilamentSensorPlugin(octoprint.plugin.StartupPlugin,
 
                 # version check: github repository
                 type="github_release",
-                user="aharshac",
-                repo="Julia2018FilamentSensor",
+                user="FracktalWorks",
+                repo="OctoPrint-Julia2018FilamentSensor",
                 current=self._plugin_version,
 
                 # update method: pip
-                pip="https://github.com/aharshac/OctoPrint-Julia2018FilamentSensor/archive/{target_version}.zip"
+                pip="https://github.com/FracktalWorks/OctoPrint-Julia2018FilamentSensor/archive/{target_version}.zip"
             )
         )
 

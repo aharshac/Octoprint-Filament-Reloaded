@@ -30,7 +30,7 @@ Run `tail -n 100 -f ~/.octoprint/logs/octoprint.log` on pi.
 
 ## Installation
 
-* Manually using this URL: https://github.com/aharshac/OctoPrint-Julia2018FilamentSensor/archive/master.zip
+* Manually using this URL: https://github.com/FracktalWorks/OctoPrint-Julia2018FilamentSensor/archive/master.zip
 
 ## Configuration
 
