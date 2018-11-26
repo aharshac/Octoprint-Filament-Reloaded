@@ -315,8 +315,8 @@ class Julia2018FilamentSensorPlugin(octoprint.plugin.StartupPlugin,
             pause_print = True,
         )
 
-__plugin_name__ = "Julia 2018 Filament Sensor"
-__plugin_version__ = "1.0.0"
+__plugin_name__ = "Julia Filament Sensor"
+__plugin_version__ = "1.1.1"
 
 def __plugin_load__():
     global __plugin_implementation__
@@ -325,4 +325,4 @@ def __plugin_load__():
     global __plugin_hooks__
     __plugin_hooks__ = {
         "octoprint.plugin.softwareupdate.check_config": __plugin_implementation__.get_update_information
-}
+    }
